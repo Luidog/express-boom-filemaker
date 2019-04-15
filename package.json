@@ -1,6 +1,6 @@
 {
   "name": "express-boom-filemaker",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A module to map boom errors to a custom response header accessible to a FileMaker client.",
   "main": "index.js",
   "scripts": {
