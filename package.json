@@ -1,0 +1,45 @@
+{
+  "name": "express-boom-filemaker",
+  "version": "0.1.0",
+  "description": "A module to map boom errors to a custom response header accessible to a FileMaker client.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc _mocha --recursive  ./tests --timeout=30000 --exit",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://luidog@github.com/Luidog/express-boom-filemaker.git"
+  },
+  "keywords": [
+    "filemaker",
+    "boom",
+    "express"
+  ],
+  "author": "Lui de la Parra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Luidog/express-boom-filemaker/issues"
+  },
+  "homepage": "https://github.com/Luidog/express-boom-filemaker#readme",
+  "dependencies": {
+    "boom": "^7.3.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "coveralls": "^3.0.3",
+    "dotenv": "^7.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.12.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "minami": "^1.2.3",
+    "mocha": "^6.1.3",
+    "mocha-lcov-reporter": "^1.3.0",
+    "nyc": "^13.3.0",
+    "prettier": "^1.17.0",
+    "superagent": "^5.0.2",
+    "varium": "^1.0.1"
+  }
+}
